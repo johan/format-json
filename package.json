@@ -1,0 +1,9 @@
+{ "name": "format-json"
+, "version": "1.0.0"
+, "author": "Johan Sundström <oyasumi@gmail.com>"
+, "description": "A JSON formatter module for various text/plain serialization styles"
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/johan/format-json"
+  }
+}
