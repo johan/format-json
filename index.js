@@ -9,7 +9,7 @@ module.exports = (function() {
       , diffy: function(o) {
           return format.plain(o)
             .replace(tailOp, leadOp)
-            .replace(cuddle, '$1') + '\n';
+            .replace(cuddle, '$1');
         }
       }
     ;

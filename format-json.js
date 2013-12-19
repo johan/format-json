@@ -10,7 +10,7 @@ var fs   = require('fs')
 
 function log(raw) {
   try {
-    process.stdout.write(json.diffy(JSON.parse(raw)));
+    console.log(json.diffy(JSON.parse(raw)));
   } catch(e) { return 1; }
   return 0;
 }

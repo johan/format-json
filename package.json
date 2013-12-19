@@ -1,5 +1,5 @@
 { "name": "format-json"
-, "version": "1.0.1"
+, "version": "1.0.2"
 , "author": "Johan Sundström <oyasumi@gmail.com>"
 , "description": "A JSON formatter module for various text/plain serialization styles"
 , "bin":
