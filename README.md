@@ -28,6 +28,12 @@ A JSON formatter module for various text/plain serialization styles
 }
 > console.log(json.terse(data));
 {"test":"for example","some":[{"nested":0,"things":[]},{}]}
+> console.log(json.space(data));
+{ "test": "for example", "some": [ { "nested": 0, "things": [] }, {} ] }
+> console.log(json.lines(data));
+{ "test": "for example"
+, "some": [ { "nested": 0, "things": [] }, {} ]
+}
 ```
 
 ### Why?
