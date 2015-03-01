@@ -36,6 +36,24 @@ A JSON formatter module for various text/plain serialization styles
 }
 ```
 
+### CLI
+
+We ship a command-line binary `format-json`. To keep dependencies minimal it comes without an argument processor, so it's very simplistic.
+
+By defaults it works over stdin/stdout, producing diffy output:
+
+```sh
+$ format-json < path/to/file.json
+$ some_pipe_chain | format-json
+```
+
+If you want to specify a formatter, you can use the file-processing variant:
+
+```sh
+$ format-json [format <terse|plain|space|lines|diffy>] path/to/file.json
+```
+
+
 ### Why?
 
 For short: diffs in version controlled JSON is what prompted `json.diffy`.
